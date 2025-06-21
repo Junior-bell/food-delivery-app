@@ -1,0 +1,37 @@
+/* src/pages/Cart.css */
+
+.cart-container {
+  background-color: #f9fafb; /* A slightly off-white background */
+  border: 1px solid #e5e7eb;
+}
+
+.cart-title {
+  color: #1f2937;
+  animation: fadeInDown 0.5s ease-out;
+}
+
+.checkout-button {
+  background-image: linear-gradient(to right, #3b82f6, #2563eb);
+  box-shadow: 0 4px 15px 0 rgba(59, 130, 246, 0.4);
+}
+
+.checkout-button:hover {
+  background-image: linear-gradient(to right, #2563eb, #1d4ed8);
+}
+
+.cart-item-row:hover {
+  background-color: #f3f4f6;
+  border-radius: 1rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} 
